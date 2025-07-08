@@ -20,3 +20,8 @@ try:
         print(f"{inp1} adalah bilangan Ganjil")
 except ValueError:
     print("(Maaf, Hanya Menerima Angka)")
+
+# ilmu baru mengenai try-except atau erorr handling
+# jika kamu ingin melakukan error handling dan menghindari program crash karena error maka gunakan try-except
+# mungkin untuk try nya berjalan seperti normal namun untuk except adalah sebuah keunikan tersendiri
+# dan aku juga baru tau bahwa else dalam if tidaklah wajib seperti pada contoh aku tidak menggunakan else dan program masih berjalan lancar tidak ada eror   
