@@ -15,3 +15,13 @@ char = input("Masukkan Kalimat:  ")
 print(f"Nilai ASCII dari '{char}' adalah: ")
 for karakter in char:
     print(f"'{karakter}' = {ord(karakter)}")
+# logikanya untuk kali ini cukup mudah
+# deklarasikan variabel input
+# print ke analog dengan f-string agar variabel dapat masuk kedalam string
+# deklarasikan looping menggunakan keyword for
+# karakter adalah variabel sementara
+# in adalah kunci kesuksesan program ini karena 'in' memungkinkan python tau darimana data diambil terlebih dahulu secara satu persatu berurutan [1, 2, 3]
+# kemudian setelah data diambil dengan metode pengurutan dari depan, in akan menugaskan kepada variabel sebelumnya yang dalam hal ini adalah variabel karakter
+# dengan ini 'in' memindahkan tanggung jawabnya ke variabel sementara
+# print ke analog dengan f-string agar variabel dapat masuk
+# done
